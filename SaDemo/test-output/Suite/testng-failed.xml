@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="pruebas.lab4_E1">
+        <methods>
+          <include name="SetUp"/>
+          <include name="CloseBrowser"/>
+          <include name="gotoLogin"/>
+        </methods>
+      </class> <!-- pruebas.lab4_E1 -->
+      <class name="pruebas.Incognito">
+        <methods>
+          <include name="SearchItem"/>
+          <include name="LoadDriver"/>
+        </methods>
+      </class> <!-- pruebas.Incognito -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
